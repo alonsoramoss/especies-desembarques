@@ -34,11 +34,16 @@ CREATE TABLE Desembarques (
     FOREIGN KEY (idEspecie) REFERENCES Especies(idEspecie),
 );
   ```
+
+5. **Configurar los archivos de conexión a la base de datos**
+    - Asegúrate de que el archivo conexion.php esté configurado correctamente con tus credenciales de MySQL.
+
 5. **Acceder al archivo PHP desde un navegador web**
     - Abre un navegador web y escribe la siguiente URL para acceder al sistema PHP:
     - Carpeta de especies: *http://localhost/crudesp*
     - Carpeta de desembarques: *http://localhost/crudesem*
 
-6. **Ejecutar el sistema (agrega, actualiza o elimina)**
+7. **Utilizar el sistema**
+    - Navega a las URLs mencionadas anteriormente para agregar, actualizar, eliminar y buscar registros en el sistema desarrollado.
 
 
