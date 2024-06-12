@@ -3,7 +3,7 @@ Sistema de gestión de especies y desembarques desarrollado en PHP y JavaScript,
 
 ## Funcionalidades
 - **Registrar:** Permite ingresar registros a la base de datos.
-- **Actualizar:** Facilita la modificación de los detalles.
+- **Actualizar:** Permite la modificación de los detalles.
 - **Eliminar:** Permite eliminar registros de la base de datos.
 - **Búsqueda:** Permite buscar especies o desembarques por sus características.
 
@@ -17,7 +17,7 @@ Sistema de gestión de especies y desembarques desarrollado en PHP y JavaScript,
 
 4. **Configurar la Base de Datos**
     - En MySQL crear una base de datos llamada `desem`.
-    - Ejecutar el siguiente script SQL para crear las tablas (especies y desembarques):
+    - Ejecutar el siguiente script SQL para crear las tablas especies y desembarques:
 
   ```sql
 CREATE TABLE Especies (
@@ -35,9 +35,7 @@ CREATE TABLE Desembarques (
 );
   ```
 5. **Acceder al archivo PHP desde un navegador web**
-    - Abre un navegador web y escribe la siguiente URL para acceder a tu archivo PHP:
-*http://localhost/miarchivo.php*
-
+    - Abre un navegador web y escribe la siguiente URL para acceder al sistema PHP: *http://localhost/micarpeta*
 
 6. **Ejecutar el sistema (agrega, actualiza o elimina)**
 
