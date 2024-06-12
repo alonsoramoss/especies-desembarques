@@ -21,13 +21,13 @@ Sistema de gestión de especies y desembarques desarrollado en PHP y JavaScript,
 
   ```sql
 CREATE TABLE Especies (
-    idEspecie int PRIMARY KEY,
+    idEspecie int PRIMARY KEY AUTO_INCREMENT,
     nombre varchar(20) NOT NULL,
     tipo varchar(40) NOT NULL
 );
 
 CREATE TABLE Desembarques (
-    idDesembarque int PRIMARY KEY,
+    idDesembarque int PRIMARY KEY AUTO_INCREMENT,
     idEspecie int NOT NULL,
     fecha date NOT NULL,
     kg_dia decimal(10,2) NOT NULL,
@@ -36,9 +36,9 @@ CREATE TABLE Desembarques (
   ```
 
 5. **Configurar los archivos de conexión a la base de datos**
-    - Asegúrate de que el archivo conexion.php esté configurado correctamente con tus credenciales de MySQL.
+    - Asegúrate de que el archivo *conexion.php* esté configurado correctamente con tus credenciales de MySQL.
 
-5. **Acceder al archivo PHP desde un navegador web**
+6. **Acceder al archivo PHP desde un navegador web**
     - Abre un navegador web y escribe la siguiente URL para acceder al sistema PHP:
     - Carpeta de especies: *http://localhost/crudesp*
     - Carpeta de desembarques: *http://localhost/crudesem*
