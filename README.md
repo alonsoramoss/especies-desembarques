@@ -35,7 +35,9 @@ CREATE TABLE Desembarques (
 );
   ```
 5. **Acceder al archivo PHP desde un navegador web**
-    - Abre un navegador web y escribe la siguiente URL para acceder al sistema PHP: *http://localhost/micarpeta*
+    - Abre un navegador web y escribe la siguiente URL para acceder al sistema PHP:
+    - Carpeta de especies: *http://localhost/crudesp*
+    - Carpeta de desembarques: *http://localhost/crudesem*
 
 6. **Ejecutar el sistema (agrega, actualiza o elimina)**
 
