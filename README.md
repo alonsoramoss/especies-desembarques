@@ -39,7 +39,7 @@ CREATE TABLE Desembarques (
     - Asegúrate de que el archivo *conexion.php* esté configurado correctamente con tus credenciales de MySQL.
 
 6. **Acceder al archivo PHP desde un navegador web**
-    - Abre un navegador web y escribe la siguiente URL para acceder al sistema PHP:
+    - Abre un navegador web y escribe las siguientes URLs para acceder al sistema PHP:
     - Carpeta de especies: *http://localhost/crudesp*
     - Carpeta de desembarques: *http://localhost/crudesem*
 
