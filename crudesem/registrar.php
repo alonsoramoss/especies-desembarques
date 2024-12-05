@@ -1,10 +1,10 @@
 <?php
 if (isset($_POST)) {
-    $idEspecie = $_POST['idEspecie'];
-    $fecha = $_POST['fecha'];
-    $kg_dia = $_POST['kg_dia'];
+    $idEspecie = $_POST["idEspecie"];
+    $fecha = $_POST["fecha"];
+    $kg_dia = $_POST["kg_dia"];
     require("conexion.php");
-    if (empty($_POST['idd'])){
+    if (empty($_POST["idd"])){
         $query = $pdo->prepare("INSERT INTO desembarques (idEspecie, fecha, kg_dia) VALUES (:idE, :fec, :kgD)");
         $query->bindParam(":idE", $idEspecie);
         $query->bindParam(":fec", $fecha);
@@ -13,7 +13,7 @@ if (isset($_POST)) {
         $pdo = null;
         echo "ok";
     }else{
-        $idD = $_POST['idd'];
+        $idD = $_POST["idd"];
         $query = $pdo->prepare("UPDATE desembarques SET idEspecie = :idE, fecha = :fec, kg_dia =:kgD WHERE idDesembarque = :idD");
         $query->bindParam(":idE", $idEspecie);
         $query->bindParam(":fec", $fecha);
