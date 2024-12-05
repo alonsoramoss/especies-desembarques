@@ -1,4 +1,3 @@
-
 INSERT INTO Desembarques VALUES(1, 1, '2024-01-01', 0);
 INSERT INTO Desembarques VALUES(2, 2, '2024-01-01', 0);
 INSERT INTO Desembarques VALUES(3, 3, '2024-01-01', 0);
