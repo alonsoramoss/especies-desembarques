@@ -1,4 +1,3 @@
-
 ListarEspecies();
 function ListarEspecies(busqueda) {
     fetch("listar.php", {
@@ -9,15 +8,28 @@ function ListarEspecies(busqueda) {
     })
 }
 
-registrar.addEventListener("click", () => {
+registrar.addEventListener("click", (event) => {
+    event.preventDefault();
+    
+    const nombreValue = nombre.value.trim();
+    const tipoValue = tipo.value.trim();
+
+    if (!nombreValue || !tipoValue) {
+        Swal.fire({
+            icon: "error",
+            title: "Campos obligatorios",
+            text: "Por favor, completa todos los campos.",
+        });
+        return;
+    }
     fetch("registrar.php", {
         method: "POST",
         body: new FormData(frm)
     }).then(response => response.text()).then(response => {
         if (response == "ok") {
             Swal.fire({
-                icon: 'success',
-                title: 'Registrado',
+                icon: "success",
+                title: "Registrado",
                 showConfirmButton: false,
                 timer: 1500
             })
@@ -25,8 +37,8 @@ registrar.addEventListener("click", () => {
             ListarEspecies();
         }else{
             Swal.fire({
-                icon: 'success',
-                title: 'Modificado',
+                icon: "success",
+                title: "Modificado",
                 showConfirmButton: false,
                 timer: 1500
             })
@@ -40,13 +52,13 @@ registrar.addEventListener("click", () => {
 
 function Eliminar(idE) {
     Swal.fire({
-        title: 'Esta seguro de eliminar?',
-        icon: 'warning',
+        title: "Esta seguro de eliminar?",
+        icon: "warning",
         showCancelButton: true,
-        confirmButtonColor: '#3085d6',
-        cancelButtonColor: '#d33',
-        confirmButtonText: 'Si',
-        cancelButtonText: 'NO'
+        confirmButtonColor: "#3085d6",
+        cancelButtonColor: "#d33",
+        confirmButtonText: "Si",
+        cancelButtonText: "NO"
     }).then((result) => {
         if (result.isConfirmed) {
             fetch("eliminar.php", {
@@ -56,8 +68,8 @@ function Eliminar(idE) {
                 if (response == "ok") {
                    ListarEspecies();
                    Swal.fire({
-                       icon: 'success',
-                       title: 'Eliminado',
+                       icon: "success",
+                       title: "Eliminado",
                        showConfirmButton: false,
                        timer: 1500
                    })
