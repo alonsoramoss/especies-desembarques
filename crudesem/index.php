@@ -21,25 +21,25 @@
                             <input type="hidden" name="idd" id="idd" value="">
                         </div>
                         <div class="col-md-3">
-                            <div class="input-group">
+                            <div class="input-group mb-3 mb-md-0">
                                 <span class="input-group-text">ID Especie</span>
                                 <input type="text" name="idEspecie" id="idEspecie" placeholder="Ingresar ID Esp." class="form-control">
                             </div>
                         </div>
                         <div class="col-md-3">
-                            <div class="input-group">
+                            <div class="input-group mb-3 mb-md-0">
                                 <span class="input-group-text">Fecha</span>
                                 <input type="text" name="fecha" id="fecha" placeholder="AAAA-MM-DD" class="form-control">
                             </div>
                         </div>
                         <div class="col-md-3">
-                            <div class="input-group">
+                            <div class="input-group mb-3 mb-md-0">
                                 <span class="input-group-text">Kg</span>
                                 <input type="text" name="kg_dia" id="kg_dia" placeholder="Ingresar kg" class="form-control">
                             </div>
                         </div>
                         <div class="col-md-3 d-grid">
-                            <input type="button" value="Registrar Desembarque" id="registrar" class="btn btn-info text-light">
+                            <input type="submit" value="Registrar Desembarque" id="registrar" class="btn btn-info text-light">
                         </div>
                     </div>
                 </form>

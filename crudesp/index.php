@@ -21,19 +21,19 @@
                             <input type="hidden" name="ide" id="ide" value="">
                         </div>
                         <div class="col-md-4">
-                            <div class="input-group">
+                            <div class="input-group mb-3 mb-md-0">
                                 <span class="input-group-text">Nombre</span>
                                 <input type="text" name="nombre" id="nombre" placeholder="Ingresar nombre" class="form-control">
                             </div>
                         </div>
                         <div class="col-md-4">
-                            <div class="input-group">
+                            <div class="input-group mb-3 mb-md-0">
                                 <span class="input-group-text">Tipo</span>
                                 <input type="text" name="tipo" id="tipo" placeholder="Ingresar tipo" class="form-control">
                             </div>
                         </div>
                         <div class="col-md-4 d-grid">
-                            <input type="button" value="Registrar Especie" id="registrar" class="btn btn-info text-light">
+                            <input type="submit" value="Registrar Especie" id="registrar" class="btn btn-info text-light">
                         </div>
                     </div>
                 </form>
