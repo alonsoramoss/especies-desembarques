@@ -9,6 +9,7 @@ Sistema de gestión de especies y desembarques desarrollado con PHP, javaScript 
 
 ## Pasos para utilizar el sistema
 #### 1. Clonar el repositorio
+    git clone https://github.com/alonsoramoss/crud-php.git
 
 #### 2. Colocar las carpetas en el directorio del servidor
 Mover las carpetas en el directorio `htdocs` dentro del directorio de instalación de XAMPP. Por defecto, esto suele ser `C:\xampp\htdocs`.
