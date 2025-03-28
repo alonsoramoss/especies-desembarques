@@ -7,7 +7,7 @@ Sistema de gestión de especies y desembarques desarrollado con PHP, javaScript 
 - **Eliminar:** Permite eliminar registros de la base de datos.
 - **Búsqueda:** Permite buscar especies o desembarques por sus características.
 
-## Instalación
+## Instalación y Configuración
 #### 1. Clona el repositorio
     git clone https://github.com/alonsoramoss/crud-php.git
 
