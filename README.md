@@ -7,7 +7,7 @@ Sistema de gestión de especies y desembarques desarrollado con PHP, javaScript 
 - **Eliminar:** Permite eliminar registros de la base de datos.
 - **Búsqueda:** Permite buscar especies o desembarques por sus características.
 
-## Pasos para utilizar el sistema
+## Instalación
 #### 1. Clona el repositorio
     git clone https://github.com/alonsoramoss/crud-php.git
 
@@ -17,9 +17,9 @@ Mover las carpetas en el directorio `htdocs` dentro del directorio de instalaci�
 #### 3. Inicia Apache y MySQL en XAMPP
 Abre el panel de control de XAMPP y activa los servicios de **Apache** y **MySQL**.
 
-#### 4. Configura la Base de Datos
+#### 4. Configura la base de datos
 En MySQL crea una base de datos llamada `desem`.
-- Ejecuta el siguiente script SQL para crear las tablas especies y desembarques:
+- Ejecuta el siguiente script SQL para crear las tablas Especies y Desembarques:
 
 ```sql
 CREATE TABLE Especies (
