@@ -12,7 +12,7 @@ Sistema de gestión de especies y desembarques desarrollado con PHP, javaScript 
     git clone https://github.com/alonsoramoss/crud-php.git
 
 #### 2. Coloca las carpetas en el directorio del servidor
-Mover las carpetas en el directorio `htdocs` dentro del directorio de instalación de XAMPP. Por defecto, esto suele ser `C:\xampp\htdocs`.
+Mueve las carpetas al directorio `htdocs`, que se encuentra dentro del directorio de instalación de XAMPP. Por defecto, suele estar en `C:\xampp\htdocs`.
 
 #### 3. Inicia Apache y MySQL en XAMPP
 Abre el panel de control de XAMPP y activa los servicios de **Apache** y **MySQL**.
