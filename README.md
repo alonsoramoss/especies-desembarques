@@ -1,15 +1,15 @@
 # Sistema de Gestión de Especies y Desembarques
-Sistema de gestión de especies y desembarques desarrollado con PHP, javaScript y bootstrap, permite realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) en una base de datos de especies y desembarques.
+Sistema de gestión de especies y desembarques desarrollado con PHP, JavaScript y Bootstrap, permite realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) en una base de datos de especies y desembarques.
 
-## Funcionalidades
+## 🎯 Funcionalidades
+- **Búsqueda:** Permite buscar especies o desembarques por sus características.
 - **Registrar:** Permite ingresar registros a la base de datos.
 - **Actualizar:** Permite la modificación de los detalles.
 - **Eliminar:** Permite eliminar registros de la base de datos.
-- **Búsqueda:** Permite buscar especies o desembarques por sus características.
 
-## Instalación y Configuración
+## ⚙️ Instalación y Configuración
 #### 1. Clona el repositorio
-    git clone https://github.com/alonsoramoss/crud-php.git
+    git clone https://github.com/alonsoramoss/especies-desembarques.git
 
 #### 2. Coloca las carpetas en el directorio del servidor
 Mueve las carpetas al directorio `htdocs`, que se encuentra dentro del directorio de instalación de XAMPP. Por defecto, suele estar en `C:\xampp\htdocs`.
