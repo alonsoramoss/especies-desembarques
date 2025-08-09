@@ -1,13 +1,13 @@
 # Sistema de Gestión de Especies y Desembarques
 
-Sistema de gestión de especies y desembarques desarrollado con PHP, JavaScript y Bootstrap, permite realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) en una base de datos de especies y desembarques.
+Sistema de gestión de especies y desembarques desarrollado con PHP, JavaScript y Bootstrap, permite realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) para gestionar los datos de especies y desembarques.
 
 ## 🎯 Funcionalidades
 
 - **Búsqueda:** Permite buscar especies o desembarques por sus características.
-- **Registrar:** Permite ingresar registros a la base de datos.
-- **Actualizar:** Permite la modificación de los detalles.
-- **Eliminar:** Permite eliminar registros de la base de datos.
+- **Registrar:** Permite ingresar nuevos registros.
+- **Actualizar:** Permite actualizar la información.
+- **Eliminar:** Permite eliminar registros.
 
 ## ⚙️ Instalación y Configuración
 
@@ -56,5 +56,4 @@ Asegúrate de que el archivo `conexion.php` esté configurado correctamente con 
 Abre tu navegador y accede a las siguientes URLs:
 
 - Gestión de Especies: http://localhost/crudesp
-
 - Gestión de Desembarques: http://localhost/crudesem
